@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: http://172.17.17.5:10010/account/2
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+Set-Cookie: e0bc846dfd6ddecb445d58f5017b1b332dfa80a8be2f02e6c57f2c3702a92541eeefcef7259240d2ae13246929e3b7adc543bf2960c0908f2dcc1f8c9ba078fa7b1639d97ee9091816ddee0b2f5c771e18c1a7c03abb7fe9a0ce36b486dcfa9bab5ecb555d82c70b9bce7b6a24f6e6aa5f977b63758e64d7dca568c16dec4987=dILqYfRvGvUm%2Fv9iZ5EvHq3Yf6%2BGDOlHQnJg3EEuhGacVTFrBPgUUTXirpCElD6HRNlcJL5vtGdCXtTK1IAVYOAsR2Pai6hJFd2kla0sHRIEtdV%2FaTDQhiLvm%2FPGXSjEW%2B3ccvykcSePeAtAtehd3rTXjZ7dI40XMTp2dSLG%2Bkq2FuEzErDsh1sl8uBjNR62qvtg2O6y11NtQ7pjtGxMorRy6OE8xKn719aVJ%2BDv4msCsdAClC7OwEhRj1CEujX0xwhWUjrL0lzhOiJOztG6w94CdItCfgQt2csmEgIJW7lTH7lZ6XB%2FoPyh%2FbAGEtQhe%2BzdJ2nzYHlV0QrRpt0FuWHyz0oTMrDBdDAiXNZUDUqOp5LC1m4s%2F0aib5CWRvE34xTZNVBFT7H5lHDELpslgw4Fv7JiAqrlQABXdxYxoCCiurF19jZn3MxJWFnbVr920mw%2BuNh9R4FmvE4E%2BhcHy1w6NMshhjyD7uG%2BHqPm9MeMLXwISbOoufdQAQb13tG%2BI9ro0cJymqlrSubxsJtf5iQIxuACkXxnmCItI2sj0Je5oiyr0OJUMbEsebCsqhdtMVHX6%2BBTGL3QM3eckZTMsIyf646cXE7um608sKpA%2BRPNxKwSpKQ%2BYTkYWAI0jQaqN6%2BnOqNgC0xxWmKbq8ZdbvK3sKIXY6xIYnsAv96Yb%2F9rHuLNDj%2By55h2tUlRe%2Fvk3L8%3D--YuNRtMLpiPcXFNoM--fSUXOHzURsCJu1w8NU6hGg%3D%3D; path=/; expires=Sun, 19 Dec 2021 20:08:42 GMT; HttpOnly; SameSite=Lax
+
+[...truncated...]

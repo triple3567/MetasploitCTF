@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: http://172.17.17.5:10010/account/3
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+Set-Cookie: e0bc846dfd6ddecb445d58f5017b1b332dfa80a8be2f02e6c57f2c3702a92541eeefcef7259240d2ae13246929e3b7adc543bf2960c0908f2dcc1f8c9ba078fa7b1639d97ee9091816ddee0b2f5c771e18c1a7c03abb7fe9a0ce36b486dcfa9bab5ecb555d82c70b9bce7b6a24f6e6aa5f977b63758e64d7dca568c16dec4987=vfdO3%2FAVcM%2Fc1soUX3MtouYNXy%2FNE93Y%2B3fRzSozxAdN9of55O5YvJOJauGn5HwHNCrfybpH6dqlDXyHbeE1y8tgtX6pT%2B9tOVI8Io6i2s6E6xkEbe313l%2FddX2RZwJe%2FOeJEBBYHXFolur8oQSON1DU9Cg90rqhX1LCPS3%2Bj90Flph4WhgCIulXPvD8%2FOr057J6QCumaVbauRINLzJbrmtcxtSBgXwsKWqrYgGjofOGQlm1JdSC%2Fl1chPlOobtzAec8bmA3NVIH2zmCwfnqejOnVwnikuHmE50kaIUDAzIlLBUyMR5yeW9pIoBJKqdHHf9dERLUq72%2FgpvPoTfjjcZ2gKHn3%2FuHv4BPjhVTZFJqnAWlBD62IEEuRhKFs9OVsV49%2Bpv%2F356grM%2BpaF3wcYNF2gf2p8DvNRW9%2FrQnd0YD7%2BqQ3JuxQmOH91rEF8cHGR9Itqtqch5Fg5n1rGYrn1RlM04SYrviexuPHxXzvMKMx7umOexMkLYkLK6lJuEf0jaShJC6NLPbGrrGvjjKWpC46z29Xc2K%2FDx%2BvefItmkVCkS6inuBN1iyJzlYvkXdtl6vaneszEaBGkQW8QzMpDafFiR55nAIA58GDsPq%2BG%2FQiGKQgxJgWedbihKisRwB8EaCtfSAt8zv6zxF2pEQjrw6OuWj0RqlhNvRMd7iYHT6EZYQoPFdua5Z7viRVs62tCs%3D--I5gsgpb1maUapSwx--tYEqkFpC6ZKAFukndaD45A%3D%3D; path=/; expires=Sun, 19 Dec 2021 20:08:42 GMT; HttpOnly; SameSite=Lax
+X-Request-Id: 97136be2-333c-4a8b-98b2-f648cdcc509e
+X-Runtime: 0.022744
+Transfer-Encoding: chunked
+
+<html><body>You are being <a href="http://172.17.17.5:10010/account/3">redirected</a>.</body></html>

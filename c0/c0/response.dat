@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Location: http://172.17.17.5:10010/login
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache
+Set-Cookie: e0bc846dfd6ddecb445d58f5017b1b332dfa80a8be2f02e6c57f2c3702a92541eeefcef7259240d2ae13246929e3b7adc543bf2960c0908f2dcc1f8c9ba078fa7b1639d97ee9091816ddee0b2f5c771e18c1a7c03abb7fe9a0ce36b486dcfa9bab5ecb555d82c70b9bce7b6a24f6e6aa5f977b63758e64d7dca568c16dec4987=vsIxCIxnsIFaTIGm2O8hxYfrGtmb5pgKikcFZhFMP9X7qHpQft7yOIiG7FeMqHeQRl2Ijo46lUWD6i%2BLODbZRVUPsq9XZHMqRz2orY9KToPvdb7pCl8qx5ouWuAO0xERpqOyFWkOxpXh5xUAgGQz%2BUf5NL9I7FO0BTYnsSL9vPOVl7WH1AP22mom1D%2FK6vsSBDapCZVqJUTu6bisadLBTKj5goIasiAg%2BnRcJyhR6ExYKfHMFh0R5NcqHtkBqk8587A49zSp6cD6AAfAeMSgTGxUeommzNbtguCEvKPsDDDFoMmBrRy6d6zt%2B%2BkunZdN9vMuZJfjCLadKTelK4l6scvqMdViQ7j7dlnkQjZ7WiD4Mx5a2SkZF%2FJLsggIBxl1rc6Zz36bjTKCEFUmLk5xJpjAVYy7DQnJKvIAyP2WK6WkD0gbWvEg56Ho%2BV4H1QyYfYwK4OMQEVK4MRJQ7%2By0sP7lT7DS24Hr8TYyM8WmHpdvF%2BWAduIMaIkJ3c3IiEVC7ZvxLc8DnY1kWwOlHCKYiMTHUSW3uMGUBOjNYgM3a%2B7lK6obBGjWazywn5fBUS7MFpWWsbZ%2FeWkFV3LETaUxaEFtCATd5DnnLEX1EB0HQMtqS3XBulS7iPKN3C6rmw%3D%3D--Vpx1TdlZpEI3HL%2B9--0jbhmLjGcrhcuthUB0%2BYeA%3D%3D; path=/; expires=Sun, 19 Dec 2021 20:08:42 GMT; HttpOnly; SameSite=Lax
+X-Request-Id: 29c40f31-5928-4db4-bde9-6b11dc627900
+X-Runtime: 0.002341
+Transfer-Encoding: chunked
+
+<html><body>You are being <a href="http://172.17.17.5:10010/login">redirected</a>.</body></html>

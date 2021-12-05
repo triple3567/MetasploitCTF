@@ -1,0 +1,68 @@
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Link: </assets/application-b8c697e38f5ecf278f5ea80d758553eae08a5635194a002f5b5dc51db0ef1145.css>; rel=preload; as=style; nopush,</packs/js/application-e39138e5c24b0104f8e3.js>; rel=preload; as=script; nopush
+Content-Type: text/html; charset=utf-8
+ETag: W/"51c5c0afef1127bb8fa7a76377a6e507"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: e0bc846dfd6ddecb445d58f5017b1b332dfa80a8be2f02e6c57f2c3702a92541eeefcef7259240d2ae13246929e3b7adc543bf2960c0908f2dcc1f8c9ba078fa7b1639d97ee9091816ddee0b2f5c771e18c1a7c03abb7fe9a0ce36b486dcfa9bab5ecb555d82c70b9bce7b6a24f6e6aa5f977b63758e64d7dca568c16dec4987=qbWG7arsbZxfWsHZKPtZZDLwFsDQjRo%2BnvfnaBH%2FOvj2ljexBrSixakF%2FK4lq3eOV9aG1qj6GFqf4msO1iDruIY31bYTexPQrHT7EC7qKvDFi3DbtKQWE7%2FLpx6Wz29K%2FZd1m1qfnrAWnL%2BtGjLnFUsBh4YU2yxLUETIzhZu%2Fqsov41PPhMb95uicMNcRvPAu7M8ZHCzaHqavI7g93UezPE6uXuusm1H%2FNAyoeZXepioOmUExqqk0VlJImIl79l79jwztsffocBTYFjqxM2wWhxsULSd7VHG2OJ8LfAIXohxe6tJ8ydyGQMk%2FxgqeMfh1tvjdWI3SFG1UCBhlxbgWXuvzoOy836H2LT3AoQy%2FTOD6peCg5fv89ugF%2F5Dyj%2BzX19QpXj%2BbWHUj9hDOv4IC5cr2dqzYaEkLIBGLzGrCLJsGgJTLUutBf%2FE1poyzq2vMjGNUyZqjedc3%2B07nYOpUUtUzkFnpmstZ2XhZxBTANhL5GcoHpeAgekP8vicsoW3WjG0vLgQsbNEzuAP8FMvfmYLr%2Fh3mQhOQDHSG51e31I8J9ogPZzutnSp4IROdqcM4V6TTm7X6%2B3VpylIbUaogf%2FE94Cxvxo4t0NXIJzolRY538byl9BKe9goNgeF1Q%3D%3D--37gYTHyNNjr%2BHkwj--kjFPODV1Sp1leIu2eCRZGA%3D%3D; path=/; expires=Sun, 19 Dec 2021 20:08:31 GMT; HttpOnly; SameSite=Lax
+X-Request-Id: d4d2260e-b119-41e7-9962-de850c6632ba
+X-Runtime: 0.017403
+Connection: close
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="1Mb6pE7Sg7sc4BE6J_VqXZm4YPh7UysrQinDKX-uRi3_nks6-kbJhCch_gThRuDrE9eUwLRhezzEFvsF_YtcIA" />
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-b8c697e38f5ecf278f5ea80d758553eae08a5635194a002f5b5dc51db0ef1145.css" data-turbolinks-track="reload" />
+    <script src="/packs/js/application-e39138e5c24b0104f8e3.js" data-turbolinks-track="reload"></script>
+
+    <script>
+    </script>
+</head>
+
+  <body>
+  <center>
+    <hr>
+    <div>
+      <a type="button" class="btn btn-primary" data-method="get" href="/">Main Page</a>
+        <a type="button" class="btn btn-primary" data-method="get" href="/register">Register</a>
+        <a type="button" class="btn btn-primary" data-method="get" href="/login">Login</a>
+    </div>
+  </center>
+  <hr>
+    <center>
+<h1>Login</h1>
+
+<form action="/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="s2rnTebE46eilEYlJiM7b12txeEoU_d3YixX8c_QxlFOGlNj925vNrjDn18WwR2ChbLIcdbEERKr4kfJuEJ8NA" />
+  <div>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" />
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" />
+  </div>
+
+  <div>
+    <input type="submit" name="commit" value="Login" class="btn btn-primary" data-disable-with="Login" />
+  </div>
+</form>
+  <div>
+    Could not login.
+  </div>
+</center>
+
+  </body>
+</html>

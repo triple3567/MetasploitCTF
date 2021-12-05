@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Link: </assets/application-b8c697e38f5ecf278f5ea80d758553eae08a5635194a002f5b5dc51db0ef1145.css>; rel=preload; as=style; nopush,</packs/js/application-e39138e5c24b0104f8e3.js>; rel=preload; as=script; nopush
+Content-Type: text/html; charset=utf-8
+ETag: W/"451906026be87f253e778d3d7026929d"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: e0bc846dfd6ddecb445d58f5017b1b332dfa80a8be2f02e6c57f2c3702a92541eeefcef7259240d2ae13246929e3b7adc543bf2960c0908f2dcc1f8c9ba078fa7b1639d97ee9091816ddee0b2f5c771e18c1a7c03abb7fe9a0ce36b486dcfa9bab5ecb555d82c70b9bce7b6a24f6e6aa5f977b63758e64d7dca568c16dec4987=C%2BpJgy5Ea%2FVwcgsNqzCyXIW00k2nT93Y3wEexkMbs3VmVAnlLUobHp1SakHO5uBGlWMfgFzMvGrpPOUdqkOqMnrB%2Fa9AOiF7GXGdXyjd0Rmem8Ln1YEEttH7a4bLnxcAqIjtG2c%2BDT1oMS6zHrhMC6kwket71EF3xg7VPFqHYN6Jop8z33urDqh6kQaXeqnsjZQNonWrmzqZdWlzeRNQPo19GNwyaQ6%2BRKNlU5t2py9OseZYaisoz2GX0DCgM3b0%2F6Fx5MwRxKtkSbl2iEycCfUPFCdQBfiJdJgXIfIkqlXx%2FE3y8aDNi80bSzTpJzOPaIJbDIyezPTu4XBdAvG3BevwUj7rsJGgAo30PKK3AASL0ydncE00gQCi6nfnqj59CnU%2FdImg%2Fg4tpZ%2BPNizK4ANWiLX%2Fs3YEQ30KikR08Uu0tERoJ1byNlE2QcqeoxwZrWy3y5lrh9bh0pnTUIy0xntALSHlFZpasc2slAZETIamJW964%2BgSc0vs9ySgU25Ds4cxgV8CbtOHa7yXVf9h3pcC7LOYmk%2BkxBKSEwkJVQ0dIpT%2BKzw4mIaFyPnK3aA%2BOUeZgbbNvfM5fLfoKffBY9%2FzWvmzc1EuDzsohC4vESdYERmBVALo2jpc99qEXw%3D%3D--7k5ZQrQken5Hrhz%2B--EC%2FLkme7o7%2F%2FyS%2BnP1shlQ%3D%3D; path=/; expires=Sun, 19 Dec 2021 20:08:31 GMT; HttpOnly; SameSite=Lax
+X-Request-Id: c58c811c-2d79-4b8e-bb9b-4e0185e24b05
+X-Runtime: 0.011414
+Transfer-Encoding: chunked
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Panel</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="YO-edvCSB-vrkguometyB04Hlofdvhu43BqUoZqaOQhLty_oRAZN1NBT5JZfWPixxGhivxKMS69aJayNGL8jBQ" />
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-b8c697e38f5ecf278f5ea80d758553eae08a5635194a002f5b5dc51db0ef1145.css" data-turbolinks-track="reload" />
+    <script src="/packs/js/application-e39138e5c24b0104f8e3.js" data-turbolinks-track="reload"></script>
+
+    <script>
+    </script>
+</head>
+
+  <body>
+  <center>
+    <hr>
+    <div>
+      <a type="button" class="btn btn-primary" data-method="get" href="/">Main Page</a>
+        <a type="button" class="btn btn-primary" data-method="get" href="/register">Register</a>
+        <a type="button" class="btn btn-primary" data-method="get" href="/login">Login</a>
+    </div>
+  </center>
+  <hr>
+    <center>
+<h1>Register</h1>
+
+<form action="/accounts" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DSOVWeZMsSAciTR69BYepIuboUeOW1VnW4041jTyH_SI5RgrAtCvFuDBDgW8j7CJl_00_JPHAi85HxCmKdEnfQ" />
+  <div>
+    <label for="account_username">Username</label>
+    <input type="text" name="account[username]" id="account_username" />
+  </div>
+
+  <div>
+    <label for="account_password">Password</label>
+    <input type="password" name="account[password]" id="account_password" />
+  </div>
+
+  <div>
+    <input type="submit" name="commit" value="Register" class="btn btn-primary" data-disable-with="Register" />
+  </div>
+</form>
+</center>
+
+  </body>
+</html>
